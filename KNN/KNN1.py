@@ -57,10 +57,8 @@ def selectNearK(inX,newData,minVals,maxVals,k,labels):
     return sortedClass[0][0]
 
 
-# 5.数据测试
 
-
-# 6.K折交叉验证
+# 5.K折交叉验证 -- 选择合适的k
 def crossValidation(dataSet, labelMat, foldNum, kList):
 
     dataSet = np.array(dataSet)
@@ -122,6 +120,8 @@ def crossValidation(dataSet, labelMat, foldNum, kList):
             bestErrorRate=errorRate
             bestK=k
     return bestK
+ 
+# 6.数据测试
 
 fileName=r"E:\机器学习笔记\KNN\datingTestSet.txt"
 dataSet,labelMat=loadDataSet(fileName)
