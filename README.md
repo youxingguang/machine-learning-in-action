@@ -31,11 +31,11 @@
 
    极大似然估计
    
-10. K均值 (K-Means)
+10. K均值 (K-Means) ✅
    
-11. 主成分分析 (PCA)
+11. 主成分分析 (PCA) ✅
   
-11. Apriori
+11. Apriori ✅
    
 12. EM 算法
   
@@ -48,7 +48,7 @@
 13. XGBoost
 14. LightGBM
 15. CatBoost
-16. AdaBoost
+16. AdaBoost ✅
 17. DBSCAN
 18. 层次聚类
 19. t-SNE
